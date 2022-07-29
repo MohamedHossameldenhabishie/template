@@ -64,6 +64,8 @@ header{
 }
 .nav__links{
     display: flex;
+    flex-direction: row;
+    align-items: baseline;  
 }
 .nav__link a{
     text-transform: capitalize;
@@ -116,7 +118,7 @@ header{
         text-align: center;
         transition: 0.3s;
         /* display: none; */
-    }
+}
     .hamburger {
         display: block
     }
